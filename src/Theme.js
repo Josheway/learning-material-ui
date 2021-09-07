@@ -19,8 +19,11 @@ export default createTheme({
     },
   },
   typography: {
-    h3: {
-      fontWeight: 300,
+    tab: {
+      fontFamily: 'Railway',
+      textTransform: 'none',
+      fontWeight: 700,
+      fontSize: '1rem',
     },
   },
 })
